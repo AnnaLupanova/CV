@@ -57,3 +57,28 @@ Languages
 * English - A2
 
 ----------------------------------------------------
+
+About yourself
+-----------
+
+I am currently learning Python and JS.
+My goal is to learn everything new and interesting.
+I love active recreation (hiking, sports, etc.). Of the positive qualities in myself, I can note discipline, punctuality, sociability, learning ability and a desire to develop. On the negative side, I can add emotionality.
+
+----------------------------------------------------
+
+Code example
+-----------
+
+```
+function modify(className, modify, index) {
+let mass = document.querySelectorAll(className);
+
+    for (let i = 0; i < mass.length; i++) {
+        mass[i].classList.remove(modify);
+        if (i === index) {
+            mass[i].classList.add(modify);
+        }
+    }
+}
+```
