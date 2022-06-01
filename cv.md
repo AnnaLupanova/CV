@@ -81,4 +81,11 @@ let mass = document.querySelectorAll(className);
         }
     }
 }
+
+function change(index) {
+    modify('.btn', 'active', index);
+    modify('.content', 'active', index);
+
+}
+
 ```
