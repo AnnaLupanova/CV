@@ -127,7 +127,7 @@ h2{
 .section__content p{
     line-height: 1.6em;
 }
-.items-skills{
+.skills-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -298,4 +298,15 @@ h2{
 }
 .section__icon._main .fas.fa-project-diagram{
     margin-top: 16px;
+}
+pre {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    overflow-y: hidden;
+    font-size: 1em;
+    font-family: monospace, monospace;
+    line-height: 20px;
+    background: #efefef;
 }
