@@ -16,7 +16,7 @@ a{
 }
 a:hover{
     cursor: pointer;
-    color: #2f4294;
+    color: #f5d944;
 }
 .container {
     max-width: 1220px;
@@ -309,4 +309,40 @@ pre {
     font-family: monospace, monospace;
     line-height: 20px;
     background: #efefef;
+}
+.project-items{
+    margin-top: 20px;
+}
+.project-item{
+    margin-bottom: 25px;
+}
+.project-title{
+
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.project-title:hover{
+    cursor: pointer;
+    color: #f5d944;
+}
+.icon-project-lang{
+    font-size: 2em;
+    color: #818181;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.project-lang{
+    display: flex;
+}
+.project-lang span{
+    margin: auto 0;
+    margin-left: 7px;
+}
+.project-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 200px;
 }
