@@ -355,7 +355,7 @@ h2{
 .item-icon{
     margin: auto 0;
 }
-.item-icon .fab.fa-github{
+.item-icon .fab.fa-github,.fa-instagram{
     font-size: 3.5em;
 }
 .list-icons svg{
