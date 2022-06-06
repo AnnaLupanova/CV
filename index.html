@@ -531,14 +531,13 @@
     function modify(className, modify, index) {
     let mass = document.querySelectorAll(className);
 
-    for (let i = 0; i < mass.length; i++) {
+    for (let i = 0; i &lt; mass.length; i++) {
         mass[i].classList.remove(modify);
         if (i === index) {
             mass[i].classList.add(modify);
         }
     }
-    }                      </code>
-                    </pre>
+    }                     </code></pre>
                 </div>
             </section>
         </main>
