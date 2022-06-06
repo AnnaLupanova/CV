@@ -116,6 +116,9 @@ h2{
     width: 100%;
     background: rgba(0,0,0,0.3);
 }
+._container:last-of-type::after{
+    display: none;
+}
 .section__content{
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
@@ -299,17 +302,7 @@ h2{
 .section__icon._main .fas.fa-project-diagram{
     margin-top: 16px;
 }
-pre {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    overflow: auto;
-    overflow-y: hidden;
-    font-size: 1em;
-    font-family: monospace, monospace;
-    line-height: 20px;
-    background: #efefef;
-}
+
 .project-items{
     margin-top: 20px;
 }
@@ -345,4 +338,37 @@ pre {
     flex-wrap: wrap;
     justify-content: space-between;
     padding-right: 200px;
+}
+.footer{
+    background: #545554;
+    margin: 0 auto;
+}
+.__container-footer{
+    width: 400px;
+    margin: 0 auto;
+}
+.list-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item-icon{
+    margin: auto 0;
+}
+.item-icon .fab.fa-github{
+    font-size: 3.5em;
+}
+.list-icons svg{
+    width: 111px;
+    margin: 10px 0;
+}
+.list-icons a:hover{
+    cursor: pointer;
+}
+.item-icon span{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.contact__text{
+    font-size: 1.2em;
 }
