@@ -342,6 +342,7 @@ h2{
 .footer{
     background: #545554;
     margin: 0 auto;
+    padding: 10px 0;
 }
 .__container-footer{
     width: 400px;
@@ -356,7 +357,7 @@ h2{
     margin: auto 0;
 }
 .item-icon .fab.fa-github,.fa-instagram{
-    font-size: 3.5em;
+    font-size: 2.5em;
 }
 .list-icons svg{
     width: 111px;
