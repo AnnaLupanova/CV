@@ -37,8 +37,8 @@ main{
     background: #ffffff;
 }
 .avatar{
-    width: 220px;
-    height: 220px;
+    width: 230px;
+    height: 269px;
     border-radius: 50%;
     border: 5px solid #ffffff;
     object-fit: cover;
