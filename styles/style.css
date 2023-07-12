@@ -128,11 +128,12 @@ h2{
     margin-bottom: 20px;
 }
 .section__content p{
-    line-height: 1.6em;
+    line-height: 1.9em;
 }
 .skills-list{
     display: flex;
     flex-wrap: wrap;
+    padding: 0 270px 0 0;
     justify-content: space-between;
 }
 .item_list{
@@ -166,6 +167,7 @@ h2{
 }
 .progress-skill{
     margin: auto 0;
+
 }
 .skills-list{
     margin-top: 10px;
